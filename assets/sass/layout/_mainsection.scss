@@ -1,0 +1,156 @@
+//main section page
+
+.container {
+  margin: 0 0.5rem;
+  display: flex;
+  border: $black solid 1px;
+  flex-wrap: wrap;
+  
+
+}
+
+.aside {
+  align-items: center;
+  width: auto;
+  border: $black solid 1px;
+  
+  padding: 1rem 0.5rem;
+  
+}
+
+
+
+.capa {
+  padding-left: 2rem;
+  width: 98%;
+  text-align: center;
+
+  &__icon {
+    padding-top: 1rem;
+  }
+  &__img {
+    width: 10rem;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+    border: 2px solid $black;
+  }
+  &__link {
+    color: $black;
+    padding: 0.2rem;
+  }
+  &__text {
+    text-align: justify;
+    font-size: $medium;
+    font-weight: $regular;
+    font-family: $ubuntu;
+    padding-top: 1rem;
+  }
+  &__title {
+    padding: 0.2rem 0;
+    margin-top: 0.5rem;
+    color: $white;
+    background-color: $black;
+    font-family: $poppins;
+    font-weight: $bold;
+  }
+}
+
+
+
+
+.courses {
+  padding-left: 2rem;
+  width: 95%;
+
+  text-align: center;
+  &__img {
+    width: 98%;
+    padding-top: 2rem;
+  }
+  &__link {
+    color: $black;
+    text-decoration: none;
+  }
+  &__list {
+    position: relative;
+  }
+  &__nav {
+    text-align: left;
+    padding: 1rem;
+  }
+  &__title {
+    text-align: left;
+    padding: 1rem 1rem;
+    font-family: $poppins;
+    font-weight: $bold;
+  }
+  &__ul {
+    list-style: circle;
+  }
+}
+
+//svg
+
+.animation {
+  padding-left: 2rem;
+  display: flex;
+  max-width: 100%;
+
+}
+
+
+.curso {
+  width: 100%;
+  border: $black 1px dotted;
+  padding: 1rem;
+  margin: 1rem;
+
+  &__img {
+    display: inline;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  &__name {
+    font-weight: $bold;
+    font-family: $poppins;
+    padding-top: 1rem;
+  }
+
+  &__text {
+    font-size: $medium;
+    font-weight: $regular;
+    font-family: $ubuntu;
+    padding-top: 1rem;
+  }
+
+  &__title {
+    padding-top: 0.5rem;
+    font-weight: $bold;
+    font-family: $poppins;
+  }
+}
+
+
+.iconos {
+  padding-top: 0.5rem;
+
+  &__link {
+    color: $black;
+    text-decoration: none;
+    padding-left: 0.3rem;
+  }
+}
+
+.main {
+  text-align: center;
+  width: 98%;
+  display: flex;
+  padding-bottom: 0.5rem;
+
+;
+}
+

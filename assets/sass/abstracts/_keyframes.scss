@@ -1,0 +1,48 @@
+//keyframes pages
+
+//vectors
+
+#engine{
+    animation: moveEngine 5s infinite linear;
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    -webkit-animation: moveEngine 5s infinite linear;
+
+}
+
+
+#code{
+
+    animation: moveCode 3s infinite both;
+    -webkit-animation: moveCode 3s infinite both;
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+
+ }
+
+ //keyframes
+
+ @keyframes moveCode {
+    50%{
+        -moz-transform: translate(28%,0);
+        -ms-transform: translate(28%,0);
+        transform: translate(28%,0);
+        -webkit-transform: translate(28%,0);
+        -o-transform: translate(28%,0);
+}
+    
+}
+@keyframes moveEngine {
+
+    100%{
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+
+}
+}
